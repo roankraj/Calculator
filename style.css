@@ -28,8 +28,8 @@ button {
 }
 
 .container {
-  width: 75%;
-  min-height: 98dvh;
+  width: 64rem;
+  height: 64rem;
   display: grid;
   grid-template-rows: 1fr 2fr;
   margin-top: 0;
