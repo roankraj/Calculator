@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Manipulation P2</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="answer-screen">
+        <div class="calc" id="calcs"></div>
+        <div class="ans" id="input" contenteditable="true" autofocus></div>
+      </div>
+      <div class="buttons-screen">
+        <button class="icon" id="mod">%</button>
+        <button id="clear-entry">CE</button>
+        <button id="clear">C</button>
+        <button class="icon" id="backspace">
+          <i class="fa-solid fa-backspace"></i>
+        </button>
+        <button id="inverse">x<sup>-1</sup></button>
+        <button id="sqaure">x<sup>2</sup></button>
+        <button id="under-root">
+          <i class="fa-solid fa-square-root-variable"></i>
+        </button>
+        <button class="icon" id="division">
+          <i class="fa-solid fa-divide"></i>
+        </button>
+        <button class="number" id="seven">7</button>
+        <button class="number" id="eight">8</button>
+        <button class="number" id="nine">9</button>
+        <button class="icon" id="multi">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <button class="number" id="four">4</button>
+        <button class="number" id="five">5</button>
+        <button class="number" id="six">6</button>
+        <button class="icon" id="subtract">
+          <i class="fa-solid fa-minus"></i>
+        </button>
+        <button class="number" id="one">1</button>
+        <button class="number" id="two">2</button>
+        <button class="number" id="three">3</button>
+        <button class="icon" id="add"><i class="fa-solid fa-plus"></i></button>
+        <button class="number" id="plus-minus">+/-</button>
+        <button class="number" id="zero">0</button>
+        <button class="number" id="deci">.</button>
+        <button class="icon" id="equals">
+          <i class="fa-solid fa-equals"></i>
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
