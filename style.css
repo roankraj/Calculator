@@ -28,9 +28,7 @@ button {
 }
 
 .container {
-  max-width: 75%;
-  width: 1200px;
-  max-height: 100dvh;
+  width: 75%;
   height: 98dvh;
   display: grid;
   grid-template-rows: 1fr 2fr;
