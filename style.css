@@ -30,7 +30,8 @@ button {
 .container {
   max-width: 75%;
   width: 1200px;
-  height: 99dvh;
+  max-height: 100dvh;
+  height: 98dvh;
   display: grid;
   grid-template-rows: 1fr 2fr;
   margin-top: 0;
