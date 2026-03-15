@@ -30,12 +30,11 @@ button {
 .container {
   max-width: 75%;
   width: 1200px;
-  height: 98%;
+  height: 99dvh;
   display: grid;
   grid-template-rows: 1fr 2fr;
   margin-top: 0;
   border-radius: 6px;
-  /* overflow: visible; */
 }
 
 .answer-screen {
