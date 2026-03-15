@@ -114,7 +114,7 @@ inverse.addEventListener("click", function () {
     display2 = equalP(display.innerText);
     display2 = `1/${display2}`;
     calcs.innerText = display2;
-    display.innerText = equalP(display2);
+    display.innerText = equalP(display2).toFixed(2);
   }
 });
 
@@ -124,7 +124,7 @@ sqaure.addEventListener("click", function () {
     display2 = equalP(display.innerText);
     display2 = `${display2}*${display2}`;
     calcs.innerText = display2;
-    display.innerText = equalP(display2);
+    display.innerText = equalP(display2).toFixed(2);
   }
 });
 
@@ -132,7 +132,7 @@ underRoot.addEventListener("click", function () {
   if (!(display.innerText === "")) {
     let display2 = "";
     display2 = equalP(display.innerText);
-    display.innerText = Math.sqrt(Number(display2));
+    display.innerText = Math.sqrt(Number(display2)).toFixed(2);
     display2 = `√${display2}`;
     calcs.innerText = display2;
   }
