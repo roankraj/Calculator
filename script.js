@@ -70,7 +70,7 @@ document.addEventListener("keydown", function (e) {
     e.preventDefault();
     highLight(backspace);
     display.innerText = display.innerText.slice(0, -1);
-  } else if (e.key === "Enter") {
+  } else if (e.key === "Enter" || e.key === "=") {
     e.preventDefault();
     if (!(equalP(display.innerText) === undefined)) {
       calcs.innerText = display.innerText;
