@@ -29,7 +29,7 @@ button {
 
 .container {
   width: 75%;
-  max-height: 98dvh;
+  min-height: 98dvh;
   display: grid;
   grid-template-rows: 1fr 2fr;
   margin-top: 0;
