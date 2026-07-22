@@ -50,5 +50,3 @@ Calculator/
 ## 📌 Purpose
 
 This project was built as part of my learning journey to practice DOM manipulation, event listeners, and handling both mouse and keyboard input in JavaScript.
-
-Calculator project - a simple project created after learning DOM Manipulation, compatible for all devices https://roankraj.github.io/Calculator/
