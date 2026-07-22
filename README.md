@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # Calculator 🧮
 
 A simple, responsive calculator built after learning DOM Manipulation — compatible with all devices.
@@ -54,5 +52,3 @@ Calculator/
 # This project was built as part of my learning journey to practice DOM manipulation, event listeners, and handling both mouse and keyboard input in JavaScript.
 
 Calculator project - a simple project created after learning DOM Manipulation, compatible for all devices https://roankraj.github.io/Calculator/
-
-> > > > > > > 92247187e23c839bc23fc3d2ad474a2045fe585a
